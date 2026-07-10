@@ -1,24 +1,11 @@
-# My mapkeeper world
+# mapkeeper-world-template (retired)
 
-A **world project** for [mapkeeper](https://github.com/plutork/MAPKEEPER) — lore, map, canon, and agent-readable profiles live here, not in the mapkeeper product repo.
+This **GitHub Template** onboarding path is **retired**.
 
-## Quick start
+Create worlds with the **MAPKEEPER editor wizard** from the main product repo:
 
-1. **Open this folder in Cursor** (File → Open Folder) — not the MAPKEEPER product repo.
-2. Run **`/user`** in chat when working as an author.
-3. Edit **`mapkeeper.toml`** — set your world name.
-4. Add assets:
-   - **`map/`** — map image(s) and layers
-   - **`canon/`** — structured lore (JSON/CSV — format TBD at V0)
-   - **`profiles/`** — queryable cell profiles for agents
-   - **`data/`** — database files (e.g. SQLite) if needed
-   - **`journal/`** — your author notes and friction log
+1. Clone/open [MAPKEEPER](https://github.com/plutork/MAPKEEPER)
+2. Open in Cursor → `.\setup.ps1` → `.\run.ps1`
+3. On empty Home, click **Create your first world**
 
-## Product docs
-
-- [mapkeeper README](https://github.com/plutork/MAPKEEPER/blob/main/README.md#product) — pitch and invariants
-- Local **[AGENTS.md](AGENTS.md)** — hints for Cursor in this world
-
-## Report product gaps
-
-[GitHub issues on mapkeeper](https://github.com/plutork/MAPKEEPER/issues)
+World scaffold source of truth remains inside MAPKEEPER at `toolchain/template/world/` (embedded for the editor/CLI). This repository is kept only as an archived pointer.
